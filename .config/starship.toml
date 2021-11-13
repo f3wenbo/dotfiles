@@ -1,0 +1,47 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = "[✗](bold red) "
+
+[cmd_duration]
+min_time = 10_000  # Show command duration over 10,000 milliseconds (=10 sec)
+format = " took [$duration]($style)"
+
+[username]
+format = " [$user]($style) "
+style_user = "bold #aa99ff"
+show_always = true
+
+# configure directory
+[directory]
+format = "[$path]($style) "
+truncation_length = 3
+truncate_to_repo = true
+truncation_symbol = "…/"
+style = "bold italic #a2ff99"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[cmake]
+disabled = true
+
+[git_branch]
+format = "[$symbol$branch]($style)"
+symbol = " "
+style = "bold #ff99cc"
+truncation_length = 20
+
+[git_commit]
+commit_hash_length = 8
+style = "bold"
+
+[time]
+time_format = "%T"
+format = "$time($style) "
+style = "bold"
+disabled = false
