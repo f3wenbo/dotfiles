@@ -1,0 +1,14 @@
+pane	0	1	0	:-	1	/dev	:/dev	1	fish	:
+pane	0	2	1	:*	1	~/D/k/c/s/kd_obstacle_detection	:/home/wenbo/Documents/khi_poc/catkin_ws_poc/src/kd_obstacle_detection	0	fish	:
+pane	0	2	1	:*	2	~/D/k/catkin_ws_poc	:/home/wenbo/Documents/khi_poc/catkin_ws_poc	0	fish	:
+pane	0	2	1	:*	3	~	:/home/wenbo	1	fish	:
+pane	2	1	1	:*	1	~/D/k/catkin_ws_poc	:/home/wenbo/Documents/khi_poc/catkin_ws_poc	0	fish	:
+pane	2	1	1	:*	2	~/D/k/catkin_ws_poc	:/home/wenbo/Documents/khi_poc/catkin_ws_poc	1	fish	:[atuin] <defunct>
+pane	2	1	1	:*	3	~/D/k/c/s/kd_obstacle_detection	:/home/wenbo/Documents/khi_poc/catkin_ws_poc/src/kd_obstacle_detection	0	fish	:
+pane	2	2	0	:-	1	~/D/c/s/d/src	:/home/wenbo/Documents/catkin_ws_docking/src/docking/src	1	fish	:
+pane	2	2	0	:-	2	~/j/w/a/atmobi_ws	:/home/wenbo/jenkins/workspace/atmobi_unit_test/atmobi_ws	0	fish	:[atuin] <defunct>
+window	0	1	:fish	0	:-	d05d,251x68,0,0,0	:
+window	0	2	:fish	1	:*	acfb,251x68,0,0{125x68,0,0,1,125x68,126,0[125x34,126,0,2,125x33,126,35,3]}	:
+window	2	1	:fish	1	:*	ffaf,270x72,0,0{135x72,0,0,5,134x72,136,0[134x36,136,0,6,134x35,136,37,13]}	:
+window	2	2	:fish	0	:-	c6bd,270x72,0,0{135x72,0,0,7,134x72,136,0,12}	:
+state	0	

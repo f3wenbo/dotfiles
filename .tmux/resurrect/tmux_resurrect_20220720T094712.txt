@@ -1,0 +1,9 @@
+pane	0	1	0	:-	1	/home/khi/kd_ws/src/kd/launch/kd_lidar.launch http://localhost:11311	:/home/wenbo	0	docker	:docker exec -it khi_digital /bin/bash
+pane	0	1	0	:-	2	docker exec -it khi_ ~	:/home/wenbo	0	docker	:docker exec -it khi_digital /bin/bash
+pane	0	1	0	:-	3	roscore http://wenbo-Z390-S01:11311/	:/home/wenbo	1	docker	:docker exec -it khi_digital /bin/bash
+pane	0	1	0	:-	4	/m/w/Data	:/media/wenbo/Data	0	fish	:
+pane	0	2	1	:*	1	~	:/home/wenbo	0	fish	:
+pane	0	2	1	:*	2	~	:/home/wenbo	1	fish	:
+window	0	1	:docker	0	:-	a3c1,251x68,0,0{125x68,0,0[125x34,0,0,1,125x33,0,35,2],125x68,126,0[125x34,126,0,3,125x33,126,35,4]}	:
+window	0	2	:fish	1	:*	e157,251x68,0,0{125x68,0,0,5,125x68,126,0,6}	:
+state	0	

@@ -1,0 +1,15 @@
+pane	0	1	1	:*	1	/dev	:/dev	0	fish	:
+pane	0	1	1	:*	2	~	:/home/wenbo	1	fish	:
+pane	0	2	0	:-	1	~/Documents	:/home/wenbo/Documents	1	fish	:[atuin] <defunct>
+pane	0	2	0	:-	2	~/D/k/d/h/kd_ws	:/home/wenbo/Documents/khi_poc/docker/home/kd_ws	0	fish	:
+pane	0	2	0	:-	3	~	:/home/wenbo	0	fish	:
+pane	2	1	0	:-	1	~/D/k/d/h/kd_ws	:/home/wenbo/Documents/khi_poc/docker/home/kd_ws	1	fish	:
+pane	2	1	0	:-	2	~/D/k/d/h/kd_ws	:/home/wenbo/Documents/khi_poc/docker/home/kd_ws	0	fish	:
+pane	2	1	0	:-	3	~/D/k/d/h/k/s/kd_obstacle_detection	:/home/wenbo/Documents/khi_poc/docker/home/kd_ws/src/kd_obstacle_detection	0	fish	:
+pane	2	2	1	:*	1	~/D/c/s/d/src	:/home/wenbo/Documents/catkin_ws_docking/src/docking/src	0	fish	:
+pane	2	2	1	:*	2	~	:/home/wenbo	1	fish	:
+window	0	1	:fish	1	:*	30ff,251x68,0,0{125x68,0,0,1,125x68,126,0,10}	:
+window	0	2	:fish	0	:-	2d00,251x68,0,0{125x68,0,0,2,125x68,126,0[125x34,126,0,3,125x33,126,35,4]}	:
+window	2	1	:fish	0	:-	ad0d,251x68,0,0{125x68,0,0,5,125x68,126,0[125x34,126,0,6,125x33,126,35,7]}	:
+window	2	2	:fish	1	:*	615c,251x68,0,0{125x68,0,0,8,125x68,126,0,9}	:
+state	0	2
