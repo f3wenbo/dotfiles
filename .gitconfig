@@ -1,28 +1,28 @@
 [core]
-    quotepath = false
+        quotepath = false
 [user]
-    mail = wenbo.chen86@gmail.com
-    name = Wenbo Chen
+        email = wenbo.chen86@gmail.com
+        name = Wenbo Chen
 [alias]
-    hist = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
-    st = !"git stash list && git status --short --branch"
-    cm = commit -m
-    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
-    aa = !git add . && git add -u && git status
-	fpush = push
-    blame = -w -C -C -C
+        hist = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+        st = !"git stash list && git status --short --branch"
+        cm = commit -m
+        ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+        aa = !git add . && git add -u && git status
+	    fpush = push
+        blame = -w -C -C -C
 [color]
-    ui = auto
+        ui = auto
 [credential]
-    helper = cache
+        helper = cache
 [push]
-    default = simple
+        default = simple
 [pull]
-    rebase = true
+        rebase = true
 [init]
-    defaultBranch = master
+        defaultBranch = master
 [rerere]
-    enabled = true
-    Update = true
+        enabled = true
+        Update = true
 [branch]
-    sort = -committerdate
+        sort = -committerdate
