@@ -1,15 +1,16 @@
 [core]
-        quotepath = false
+    quotepath = false
 [user]
-    mail = chen.wenbo@jp.panasonic.com
-    name = Chen Wenbo
-    email = chen.wenbo@jp.panasonic.com
+    mail = wenbo.chen86@gmail.com
+    name = Wenbo Chen
 [alias]
     hist = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
     st = !"git stash list && git status --short --branch"
     cm = commit -m
-        ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
-        aa = !git add . && git add -u && git status
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+    aa = !git add . && git add -u && git status
+	fpush = push
+    blame = -w -C -C -C
 [color]
     ui = auto
 [credential]
@@ -18,9 +19,10 @@
     default = simple
 [pull]
     rebase = true
-[http]
-    proxy = http://proxy.mei.co.jp:8080
-[https]
-    proxy = http://proxy.mei.co.jp:8080
 [init]
     defaultBranch = master
+[rerere]
+    enabled = true
+    Update = true
+[branch]
+    sort = -committerdate
